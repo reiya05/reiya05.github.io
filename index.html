@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="reset.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>The company</title>
+  <meta name="description" content="THe companyのコーポレートサイトです">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> 
+  <!-- WOW用 -->
+  <link rel="stylesheet" href="animate.css">
+  <script src="./dist/wow.js"></script>
+  <script>new WOW({mobile: false}).init();</script>
+  <!-- ドロワーメニュー用 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+  <!-- css読み込み -->
+  <link rel="stylesheet" href="sass.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="header-logo">
+        <img src="image/logo.png" alt="ロゴ画像">
+      </div>
+      <div class="header-menu">
+        <ul>
+          <li class="menu-item"><a href="#to-card">Card</a></li>
+          <li class="menu-item"><a href="#to-news">News</a></li>
+          <li class="menu-item"><a href="#to-price">Price</a></li>
+          <li class="menu-item"><a href="#to-access">Access</a></li>
+          <li class="menu-item"><a href="#to-contact">Contact</a></li>
+        </ul>
+      </div>
+      
+    </div>
+    <nav>
+      <div class="drawer">
+       <div class="navbar_toggle">
+        <span class="navbar_toggle_icon"></span>
+        <span class="navbar_toggle_icon"></span>
+        <span class="navbar_toggle_icon"></span>
+       </div>
+      </div>
+      <div class="menu">
+       <ul>
+        <li><a href="#to-card">Card</a></li>
+        <li><a href="#to-news">News</a></li>
+        <li><a href="#to-price">Price</a></li>
+        <li><a href="#to-access">Access</a></li>
+        <li><a href="#to-contact">Contact</a></li>
+       </ul>
+      </div>
+     </nav>
+  </header>
+
+  <section class="main-visual">
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="./image/mainvisual.png" alt="メイン"></div>
+          <div class="swiper-slide"><img src="./image/mainvisual.png" alt="メイン"></div>
+          <div class="swiper-slide"><img src="./image/mainvisual.png" alt="メイン"></div>
+          
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+  
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="container">
+        <div class="main-visual-wrapper">
+          <div class="lead-wrapper">
+            <h1>一番伝えたいことを書く</h1>
+            <p>リードリードリード</p>
+          </div>
+          <div class="button">
+            <input type="button" value="お問い合わせ">
+          </div>
+        </div>
+      </div>
+  </div>
+  </section>
+
+  <section class="cards" id="to-card">
+    <div class="container wow fadeInUp" data-wow-delay="0.5s">
+      <div>
+        <h1>Card</h1>
+      </div>
+
+      <div class="card-section">
+        <div class="card">
+          <img src="./image/card-img.png" alt="カード">
+          <div class="card-sentence">
+            <p class="card-title">タイトルタイトル</p>
+            <p class="card-txt">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          </div>
+        </div>
+  
+        <div class="card">
+          <img src="./image/card-img.png" alt="カード">
+          <div class="card-sentence">
+            <p class="card-title">タイトルタイトル</p>
+            <p class="card-txt">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          </div>
+        </div>
+  
+        <div class="card">
+          <img src="./image/card-img.png" alt="カード">
+          <div class="card-sentence">
+            <p class="card-title">タイトルタイトル</p>
+            <p class="card-txt">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          </div>
+        </div>
+        
+        <div class="card">
+          <img src="./image/card-img.png" alt="カード">
+          <div class="card-sentence">
+            <p class="card-title">タイトルタイトル</p>
+            <p class="card-txt">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./image/card-img.png" alt="カード">
+          <div class="card-sentence">
+            <p class="card-title">タイトルタイトル</p>
+            <p class="card-txt">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    
+  </section>
+
+  <section class="news" id="to-news">
+    <div class="container wow fadeInUp" data-wow-delay="0.5s">
+      <h1>News</h1>
+      <div class="news-items">
+        <div class="news-item">
+          <div class="news-item-left">
+            <p class="date">2019-01.30</p>
+            <div class="label"><a  class="label-btn1" href="#">ラベル１</a></div>
+          </div>
+          <div class="news-item-right">
+            <p>ニューニュースニューススニュースニュースニュースニュースニュースニュース</p>
+          </div>
+        </div>
+        <div class="news-item">
+          <div class="news-item-left">
+            <p class="date">2019-01.30</p>
+            <div class="label"><a  class="label-btn2" href="#">ラベル１</a></div>
+          </div>
+          <div class="news-item-right">
+            <p>ニューニュースニューススニュースニュースニュースニュースニュースニュース</p>
+          </div>
+        </div>
+        <div class="news-item">
+          <div class="news-item-left">
+            <p class="date">2019-01.30</p>
+            <div class="label"><a  class="label-btn3" href="#">ラベル１</a></div>
+          </div>
+          <div class="news-item-right">
+            <p>ニューニュースニューススニュースニュースニュースニュースニュースニニュースニュースニュースニュースニュースュース</p>
+          </div>
+        </div>
+        <div class="news-item">
+          <div class="news-item-left">
+            <p class="date">2019-01.30</p>
+            <div class="label"><a  class="label-btn1" href="#">ラベル１</a></div>
+          </div>
+          <div class="news-item-right">
+            <p>ニューニュースニューススニ</p>
+          </div>
+        </div>
+      </div>
+      <div class="more">
+        <a  class="more" href="#">more<i class="fas fa-angle-right"></i></a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="price" id="to-price">
+    <div class="container wow fadeInUp" data-wow-delay="0.5s">
+      <h1>Price</h1>
+      <div class="img-table-wrapper">
+        <div class="img-wrapper">
+          <img src="./image/price-img.png" alt="画像">
+        </div>
+        <div class="table-wrapper">
+          <table>
+            <tr>
+              <th></th> <th>column1</th> <th>column2</th>
+            </tr>
+            <tr>
+              <th>row1</th> <td>100円</td> <td>100円</td>
+            </tr>
+            <tr>
+              <th>row2</th> <td>6000円</td> <td>0円</td>
+            </tr>
+            <tr>
+              <th>row3</th> <td>6000円<br><span>※今だけ半額</span></td> <td>0円</td>
+            </tr>
+            <tr>
+              <th>row4</th> <td>100円</td> <td>100円</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <p>※目安なので詳しくは<a href="#">お問い合わせ</a>ください</p>
+    </div>
+
+  </section>
+
+  <section class="access" id="to-access">
+    <div class="container wow fadeInUp" data-wow-delay="0.5s">
+      <h1>Access</h1>
+      <div class="address-wrapper">
+        <div class="iframe-wrapper">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.7072365639387!2d135.52376681503006!3d34.68733769144197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0cd5c283afd%3A0xf01d07d5ca11e41!2z5aSn6Ziq5Z-O!5e0!3m2!1sja!2sjp!4v1601804005793!5m2!1sja!2sjp" width="800px" height="400px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+      <div class="address">
+      <table>
+        <tr><th>住所</th><td>大阪城公園内</td></tr>
+        <tr><th>アクセス</th><td>大阪城公園駅徒歩５分</td></tr>
+      </table>
+      <div class="map-btn">
+        <a href="https://goo.gl/maps/ccNuxBca4ZsZuxx29" target="_blank">Googleマップで見る</a>
+      </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact wow fadeInUp" data-wow-delay="0.5s" id="to-contact">
+    <div class="container">
+      <h1>Contact</h1>
+      <div class="form-wrapper">
+        <form action="#" method="POST">
+          <div class="label-wrapper">
+            <label class="must" for="name">お名前</label><input type="text" id="name" placeholder="山田太郎" name="yourname">
+          </div>
+          <div class="label-wrapper">
+            <label class="must" for="mail">メール</label><input type="email" id="mail" placeholder="text@exsample.com" name="yourmail">
+          </div>
+          <div class="select-wrapper">
+            <label for="select-box">お問い合わせ種別</label>
+            <select id="select-box" name="purpose">
+              <option value="price">見積額</option>
+              <option value="recruit">採用</option>
+              <option value="ir">IR</option>
+            </select>
+          </div>
+          <div class="label-wrapper">
+            <label for="comment">お問い合わせ内容</label>
+            <textarea id="comment" placeholder="入力してください" name="comment"></textarea>
+          </div>
+          <div class="radio-wrapper">
+            <label for="japan"><input class="radio-country" id="japan" type="radio" name="country" value="japan"><span>日本</span></label>
+            <label for="america"><input class="radio-country" id="america" type="radio" name="country" value="america"><span>アメリカ</span></label>
+            <label for="china"><input class="radio-country" id="china" type="radio" name="country" value="china"><span>中国</span></label>
+          </div>
+          <div class="check-wrapper">
+            <label for="checked"><a href="#">プライバシーポリシー</a>に合意する</label><input type="checkbox" name="policy" id="checked">
+          </div>
+          <div class="submit-wrapper">
+            <input class="send-btn" type="submit" value="送信する">
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer-left">
+          <img src="./image/logo.png" alt="#">
+          <div class="footer-address">
+            <h3>住所：大阪城１−１−１１</h3>
+            <h3>TEL:000−000−000</h3>
+          </div>
+        </div>
+        <div class="footer-center">
+            <ul>
+              <li class="footer-item">Card</li>
+              <li class="footer-item">News</li>
+              <li class="footer-item">Price</li>
+              <li class="footer-item">Access</li>
+              <li class="footer-item not">Contact</li>
+            </ul>
+        </div>   
+        <div class="footer-right">
+          <div class="sns-btn">
+            <ul>
+              <li><img class="twitter" src="./image/twitter.png" alt="#"></li>
+              <li><img class="facebook" src="./image/facebook.png" alt="#"></li>
+              <li><img class="instagram" src="./image/instagram.png" alt="#"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="footer-copyright" >Copyright©️ 2020 Ryoya All rights reserved.</p>
+    </div>
+    <img id="to-top" src="image/totop.png" alt="" class="top-btn">
+  </footer>
+
+  <!-- ドロワーメニューの利用 -->
+  <script>
+    $(document).ready(function () {
+      $('.drawer').drawer();
+    });
+  </script>
+
+  <!-- swiper読み込み -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      loop: true,
+      pagination: {
+	  	el: '.swiper-pagination',
+		  type: 'bullets',
+		  clickable: true
+	    }
+    });
+  </script>
+  <!-- jQuery読み込み -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./javascript/practice.js"></script>
+
+</body>
+</html>
