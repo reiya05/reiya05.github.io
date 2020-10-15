@@ -917,6 +917,9 @@ footer .footer-wrapper .footer-center ul {
 footer .footer-wrapper .footer-center ul li:not(.not) {
   margin-right: 40px;
 }
+footer .footer-wrapper .footer-center ul a {
+  color: #fff;
+}
 
 footer .footer-wrapper .footer-right ul {
   display: -webkit-box;
