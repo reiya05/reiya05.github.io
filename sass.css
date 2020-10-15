@@ -225,7 +225,7 @@ header img {
   text-align: center;
 }
 
-.main-visual .main-visual-wrapper input[type="button"] {
+.main-visual .main-visual-wrapper .contact-btn {
   margin-top: 40px;
   font-size: 32px;
   font-weight: bold;
